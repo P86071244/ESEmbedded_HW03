@@ -53,7 +53,6 @@ This is the hw03 sample. Please follow the steps below.
 
 --------------------
 
-**★★★ Please take your note here ★★★**
 #Question
 How do C functions pass and return parameters?
 * Modify main.c to observe what I found.
@@ -184,6 +183,6 @@ Disassembly of section .ARM.attributes:
 ```
 #Conclusion
 * Reference from Procedure Call Standard for the ARM® Architecture. It describes each functions of registers.
-
+![image](https://github.com/P86071244/ESEmbedded_HW03/blob/master/AAPCS%20core%20registers.jpg)
 * r0~r3 are used to pass argument values into subroutine and to return a result value from a function.
 
