@@ -61,7 +61,8 @@ int plus(int a,int b){return a+b;}
  
 void reset_handler(void)  
 { 
-    int a=1,b=2,c,d,e,f;  
+    int a=1,b=2;
+    int c,d,e;  
     c=plus(a,b);  
     d=plus(c,10); 
     e=20;
@@ -185,4 +186,4 @@ Disassembly of section .ARM.attributes:
 * Reference from Procedure Call Standard for the ARM® Architecture. It describes each functions of registers.
 ![image](https://github.com/P86071244/ESEmbedded_HW03/blob/master/AAPCS%20core%20registers.jpg)
 * r0~r3 are used to pass argument values into subroutine and to return a result value from a function.
-
+![image](https://github.com/P86071244/ESEmbedded_HW03/blob/master/r0r1r2r3.jpg)
